@@ -1,0 +1,15 @@
+.headContainer {
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  background-color: #bf2229;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.headRight,
+.headleft {
+  display: flex;
+}
