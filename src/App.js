@@ -1,12 +1,15 @@
 import "./App.css";
-import Counter from "./features/counter/Counter";
 import Header from "./component/Header";
+import NavBar from "./component/NavBar";
+import PosterOne from "./component/PosterOne";
 
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
       <Header />
+      <NavBar />
+      <PosterOne />
     </div>
   );
 }
